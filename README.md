@@ -36,12 +36,13 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 
-git remote add origin https://github.com/Andrey1de/andrey1de-facade.git
+c add origin https://github.com/Andrey1de/andrey1de-facade.git
 git branch -M master
 git push -u origin master
 
 To push an image to Heroku, such as one pulled from Docker Hub, tag it and push it according to this naming template:
+docker docker run -p 4200:80 andrey1de-facade:web
 
-docker tag andrey1de-facade:prod registry.heroku.com/andrey1de-facade/web
+docker tag andrey1de-facade:web registry.heroku.com/andrey1de-facade/web
 docker push registry.heroku.com/andrey1de-facade/web
-docker pull
+

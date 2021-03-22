@@ -1,11 +1,16 @@
 {
   "name": "andrey1de-facade",
-  "version": "0.0.0",
+   "version": "1.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Andrey Dergacher @2021",
+    "email": "andrey1de@gmail.com"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
     "test": "ng test",
+    "deploy" : " ng  build  --output-path=./dist/out --configuration=production",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
